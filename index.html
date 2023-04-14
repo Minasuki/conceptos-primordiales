@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="puedoConducir.js"></script>
+    <script src="parDel1al100.js"></script>
+    <script src="inicioSecion.js"></script>
+    <script src="text&Button.js"></script>
+</head>
+
+<body>
+
+    <script>
+
+        function saltarLinea() {
+            document.write("</br>");
+        }
+/*      //  pasar de una cadena de texto a un número entero
+        
+            function imprimir(frase) {
+                document.write(frase);
+                saltarLinea();
+            }
+        
+            let invitados = parseInt(prompt("Número de invitados"));
+            let vips = parseInt(prompt("Número de invitados VIP's"));
+        
+            let total = invitados + vips;
+        
+            imprimir("El total de invitados es " + total);
+        */
+
+    </script>
+    <input type="button" value="Puedo Conducir" onclick="licencia();"></br>
+    <input type="button" value="Par del 1 al 100" onclick="par();"></br>
+    <input type="button" value="Inicio de secion" onclick="inicio();"></br>
+    <input type="text" id="texto1" value="">
+    <input type="button" value="Verificar si acertastes" onclick="verificar();"></br>
+    <div id="info"></div>
+    <button onclick="location.href='/ingredientes.html'">Llévame a otro lado</button></br>
+    <button onclick="location.href='/bandera.html'">Llévame a ver una bandera</button>
+    <button onclick="location.href='/creeper.html'">Llévame a ver un creeper</button></br>
+
+</body>
+
+</html>
